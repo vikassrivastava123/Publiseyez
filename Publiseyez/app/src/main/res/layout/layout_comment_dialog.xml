@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <ImageView
+            android:src="@drawable/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="#FFFFBB33"
+            android:contentDescription="Write Comment" />
+        <TextView
+            android:text="Write Comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="15sp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="submitComment"/>
+
+    </FrameLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentText"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/submitCommentImageView"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitCommentTextView"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/cancelCommentImageView"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancelCommentTextView"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

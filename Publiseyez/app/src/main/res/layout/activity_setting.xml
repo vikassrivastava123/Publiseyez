@@ -1,0 +1,191 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_floating_material_light"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="ACCOUNT"
+        android:textSize="19sp"
+        android:paddingStart="10sp"
+        android:gravity="bottom"
+        android:background="@color/black_overlay"
+        android:paddingBottom="6dp"
+        android:id="@+id/accountText" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Edit Profile"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_selected"
+        android:onClick="editProfile"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Change Password"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:onClick="changePassword"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <Switch
+        android:text="Private Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/privateAccountSwitch"
+        android:layout_marginTop="60dp"
+        android:textSize="22sp"
+        android:gravity="bottom"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="7dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When your account is private, only people you approve can see photos and videos on publiseyez Your existing followers won't be affected."
+        android:layout_marginTop="7dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingBottom="7dp"
+        android:background="@color/black_overlay"
+        android:textColor="@color/bright_foreground_disabled_material_light" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUPPORT"
+        android:textSize="19sp"
+        android:paddingStart="10sp"
+        android:paddingTop="40sp"
+        android:gravity="bottom"
+        android:background="@color/black_overlay"
+        android:paddingBottom="6dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Help Centre"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_selected" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Report a Problem"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_pressed" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Privacy Policy"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_pressed" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_next"
+        android:text="Terms"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/abc_search_url_text_pressed" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#00008B"
+        android:onClick="logout"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+</LinearLayout>
+    </ScrollView>

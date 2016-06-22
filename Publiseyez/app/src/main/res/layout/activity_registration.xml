@@ -1,0 +1,180 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="80dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/signup_top_border" />
+
+            <ImageView
+                android:src="@drawable/signup_logo"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/imageView3" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/textView8"
+            android:textColor="#00008B"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@drawable/edit_box_style"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:drawableLeft="@drawable/username"
+            android:drawableStart="@drawable/username"
+            android:drawablePadding="5dp"
+            android:hint="First Name"
+            android:textSize="15sp"
+            android:ems="10"
+            android:id="@+id/firstNameEditBoxSignUp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@drawable/edit_box_style"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/username"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="Last Name"
+            android:textSize="15sp"
+            android:ems="10"
+            android:id="@+id/lastNameEditBoxSignUp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/username"
+            android:background="@drawable/edit_box_style"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="Gender"
+            android:textSize="15sp"
+            android:ems="10"
+            android:id="@+id/genderEditBoxSignUp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:drawableLeft="@drawable/signup_dob"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/signup_dob"
+            android:background="@drawable/edit_box_style"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="Birth Date"
+            android:textSize="15sp"
+            android:ems="10"
+            android:id="@+id/dateOfBirthEditBoxSignUp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/username"
+            android:background="@drawable/edit_box_style"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:ems="10"
+            android:hint="Ethnicity"
+            android:textSize="15sp"
+            android:id="@+id/ethinicityEditBoxSignUp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/signup_county"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/signup_county"
+            android:background="@drawable/edit_box_style"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:ems="10"
+            android:hint="Country"
+            android:textSize="15sp"
+            android:id="@+id/countryEditBoxSignUp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:src="@drawable/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center"
+                android:onClick="continueSignup"/>
+
+            <TextView
+                android:text="Continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:text="Terms and Conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+</ScrollView>

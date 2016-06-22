@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Publiseyez</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_registration">Registration</string>
+
+    <string name="title_activity_registration_page2">Sign Up</string>
+
+    <string name="title_activity_gallery">Gallery</string>
+
+    <string name="title_activity_gallery_image_view">GalleryImageView</string>
+    <string name="title_activity_comment_dialog">CommentDialog</string>
+
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_setting">OPTIONS</string>
+    <string name="title_activity_settings">Setting</string>
+
+</resources>
